@@ -7,11 +7,48 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="nanoCadCore23.1.NET" Version="1.0.0" />
+	  <ProjectReference Include="..\LoadAssemblies.Views.NET\LoadAssemblies.Views.NET.csproj">
+	    <Private>False</Private>
+	  </ProjectReference>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\LoadAssemblies.Views.NET\LoadAssemblies.Views.NET.csproj" />
+	  <Reference Include="hostdbmgd">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\hostdbmgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="hostmgd">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\hostmgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="imapimgd">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\imapimgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="MapiBaseTypes">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\mapibasetypes.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="mapiforms">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\mapiforms.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="mapimgd">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\mapimgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="mapinet">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\mapinet.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="mapiwpf">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\mapiwpf.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="McUnits">
+	    <HintPath>..\..\..\SDK\NC24.1\include-x64\McUnits.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
 	</ItemGroup>
 
 	<Target Name="CopyDLLs" AfterTargets="PostBuildEvent">
