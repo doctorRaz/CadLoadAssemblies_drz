@@ -54,7 +54,7 @@
     <Reference Include="LoadAssemblies.Views, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Debug\LoadAssemblies.Views.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="mapibasetypes">
       <HintPath>C:\SDK_NC\NC_SDK_22.0.5944.3726.6053\include-x64\mapibasetypes.dll</HintPath>

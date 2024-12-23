@@ -8,7 +8,8 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\LoadAssemblies.Views.NET\LoadAssemblies.Views.NET.csproj">
-	    <Private>False</Private>
+	    <Private>True</Private>
+	    <CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 	  </ProjectReference>
 	</ItemGroup>
 
