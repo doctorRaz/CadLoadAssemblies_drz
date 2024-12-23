@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadAssemblies.NCAD", "Load
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.ACAD", "LoadAssemblies.ACAD\LoadAssemblies.ACAD.csproj", "{1DC6F416-0DAB-4B92-ACDE-A4A435946E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.Views.NET", "LoadAssemblies.Views.NET\LoadAssemblies.Views.NET.csproj", "{46DF4836-F33E-4D9C-B541-318ACAC6E308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadAssemblies.Views.NET", "LoadAssemblies.Views.NET\LoadAssemblies.Views.NET.csproj", "{46DF4836-F33E-4D9C-B541-318ACAC6E308}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.Views", "LoadAssemblies.Views\LoadAssemblies.Views.csproj", "{43DEDC05-6A4F-4837-9ED8-AD78870F1F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblies.NCAD.NF", "LoadAssemblies.NCAD.NF\LoadAssemblies.NCAD.NF.csproj", "{A5DCCA32-B473-402F-8CF4-EE21E10A1F93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43DEDC05-6A4F-4837-9ED8-AD78870F1F64} = {43DEDC05-6A4F-4837-9ED8-AD78870F1F64}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{43DEDC05-6A4F-4837-9ED8-AD78870F1F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DEDC05-6A4F-4837-9ED8-AD78870F1F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DEDC05-6A4F-4837-9ED8-AD78870F1F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DCCA32-B473-402F-8CF4-EE21E10A1F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DCCA32-B473-402F-8CF4-EE21E10A1F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DCCA32-B473-402F-8CF4-EE21E10A1F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DCCA32-B473-402F-8CF4-EE21E10A1F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

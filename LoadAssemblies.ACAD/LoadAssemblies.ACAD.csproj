@@ -103,6 +103,7 @@
     <ProjectReference Include="..\LoadAssemblies.Views\LoadAssemblies.Views.csproj">
       <Project>{43dedc05-6a4f-4837-9ed8-ad78870f1f64}</Project>
       <Name>LoadAssemblies.Views</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
